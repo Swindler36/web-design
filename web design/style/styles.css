@@ -1,0 +1,17 @@
+body{
+	margin:0px;
+	
+}
+
+#container{
+	width: 800px;
+	height: auto;
+	text-align: left;
+	margin: auto;
+	
+}
+
+#header{
+	background-repeat:repeat-x;
+	height:15px;
+}
