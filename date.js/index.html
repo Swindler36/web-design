@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takvim</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <style>
+        table{
+            text-align: center;
+        }
+        .no-day{
+
+        }
+        .now-day{
+            background-color: greenyellow!important;
+        }
+        .attendence{
+            border:1px solid #dc3545!important;
+        }
+        td:hover{
+            background-color: red!important;
+            color:white;
+        }
+        th:hover{
+            background-color: red!important;
+            color:white;
+        }
+        .pre-m-day{
+            color:gray;
+        }
+        #takvim{
+            width: fit-content;
+        }
+    </style>
+    <div class="container">
+   
+                <div class="card" id="takvim">
+                    
+                            <div class="card-header"><span id="month_name" class="mr-3"></span>
+                                <span class="float-right">
+                                    <a class="btn btn-info" href="" id="month_up">
+                                        <i class="fa fa-angle-up"></i>
+                                    </a>
+                                    <a class="btn btn-info" href="" id="month_down">
+                                        <i class="fa fa-angle-down"></i>
+                                    </a>
+                                </span>
+                                
+                            </div>
+                            <table class="table table-striped mb-0">
+                                <thead>
+                                    <th scope="col">Mon</th>
+                                    <th scope="col">Tue</th>
+                                    <th scope="col">Wed</th>
+                                    <th scope="col">Tur</th>
+                                    <th scope="col">Fri</th>
+                                    <th scope="col">Sat</th>
+                                    <th scope="col">Sun</th>
+                                </thead>
+                                <tbody>
+                                    <tr id="week1">
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                    </tr>
+                                    <tr id="week2">
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                    </tr>
+                                    <tr id="week3">
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                    </tr>
+                                    <tr id="week4">
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                    </tr>
+                                    <tr id="week5">
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                        <td class="day"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                
+                    </div>
+                    <div class="card-body">
+                        <a class="btn btn-danger" href="">Add a announcement</a>
+                    </div>
+    </div>
+    </div>
+  
+
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
